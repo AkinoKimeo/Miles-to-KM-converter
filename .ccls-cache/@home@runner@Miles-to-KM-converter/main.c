@@ -5,10 +5,12 @@
 int
 main(void)
 {
-  double miles, kms;
+  float miles, kms;
+  //double. must use %lf. since double is doublefloat. 
   /* get the distance in miles */
   printf("Enter the distance in miles > ");
-  scanf("%lf", &miles);
+  //scanf asks for input. %lf specifies float
+  scanf("%f", &miles);
 
   /*convert the distance to kilometers. */
   kms = KMS_PER_MILE * miles;
