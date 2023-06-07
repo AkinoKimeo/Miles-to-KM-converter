@@ -6,7 +6,6 @@ int
 main(void)
 {
   double miles, kms;
-  //distance in miles equivalent distance in kilometers
   /* get the distance in miles */
   printf("Enter the distance in miles > ");
   scanf("%lf", &miles);
